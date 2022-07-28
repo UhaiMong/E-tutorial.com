@@ -18,6 +18,12 @@
     opacity: .6;
     fill-opacity: var(--fill-opacity);
 }
+.custom-prev-button{
+    left: -84px;
+}
+.custom-next-button{
+    right: -84px;
+}
 @media screen and (min-width:768px) and (max-width:991px) {
     .custom-breakpoint{
         display: block !important;
