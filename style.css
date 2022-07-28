@@ -5,6 +5,22 @@
     justify-content: center;
     align-items: center;
 }
+:root{
+    --fill-opacity: black;
+}
 .bg-explore {
     background-color: #F4FAFD;
+}
+.custom-margin{
+    margin-left: 200px!important;
+}
+.for-opacity{
+    opacity: .6;
+    fill-opacity: var(--fill-opacity);
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .custom-breakpoint{
+        display: block !important;
+    }
+    
 }
