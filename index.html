@@ -191,10 +191,10 @@
             <!-- Course section ended -->
 
             <!-- Explore and user section -->
-            <div class="bg-explore mt-5 d-flex flex-column flex-md-row align-items-center rounded-3">
+            <div class="bg-explore mt-5 mb-5 d-flex flex-column flex-md-row align-items-center rounded-3">
                 <div>
                     <img src="https://raw.githubusercontent.com/UhaiMong/images/master/cover/working.png"
-                        alt="Explore images" class="rounded-3">
+                        alt="Explore images" class="rounded-3 d-block w-100">
                 </div>
                 <div class="ms-5">
                     <h2 class="fw-bold fs-1 text-start">Explore The E-Tutorial.com Institute</h2>
@@ -220,7 +220,61 @@
                 </div>
             </div>
             <!-- Explore and user section ended -->
+
+            <!-- Join & Registration -->
+            <div
+                class="bg-primary rounded-3 d-flex flex-column flex-lg-row justify-content-between align-items-center p-5 mt-5">
+                <div>
+                    <h2>Ready to join</h2>
+                    <p>It is a time to join our course. You can join easily our course. If you agree to join our
+                        course,please submit a register.</p>
+                </div>
+
+                <!-- Button with modal -->
+                <button type="button" class="btn btn-light text-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Fill up the form</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">Email or Phone:</label>
+                                        <input type="text" class="form-control" id="recipient-name"
+                                            placeholder="Email/Phone" required>
+
+                                        <label for="recipient-name" class="col-form-label">Full Name:</label>
+                                        <input type="text" class="form-control" id="recipient-name"
+                                            placeholder="Your full name:" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="message-text" class="col-form-label">Bio in short:</label>
+                                        <textarea class="form-control" placeholder="About your information in short:"
+                                            id="message-text" required></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button"
+                                    class="btn btn-light text-primary border-primary rounded-2">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Join & Registration ended -->
         </section>
+        <!-- Wraping all ended -->
+
         <!-- Bootstrap js CDN -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
